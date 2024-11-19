@@ -5,7 +5,7 @@ if top_range.isdigit():
     top_range = int(top_range)
 
     if top_range <= 0:
-        print("Enteer number greater than zero next time")
+        print("Enter number greater than zero next time")
         quit()
 else:
     print("please type in a number next time:")
